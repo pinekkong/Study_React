@@ -3,6 +3,7 @@ import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
 import InputSample from './InputSample';
+import UserList from './UserList';
 
 function App() {
   const name = 'react';
@@ -24,6 +25,7 @@ function App() {
       </Wrapper>
       <Counter></Counter>
       <InputSample></InputSample>
+      <UserList></UserList>
     </div>
   );
 }
